@@ -4,9 +4,8 @@
 
 Această aplicație implementează un chat simplu utilizând protocolul **UDP**.
 
-Proiectul conține două aplicații de consolă:
+Proiectul conține peer to peer method:
 
-- **Server** – primește mesaje de la clienți și le retransmite către toți participanții activi
 - **Client** – trimite și primește mesaje prin UDP
 
 Aplicația permite comunicarea simultană între mai mulți clienți.
