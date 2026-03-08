@@ -1,0 +1,29 @@
+# Ignore EVERYTHING
+*
+
+# Except .gitignore itself
+!.gitignore
+
+.vs/
+
+# Keep solution & project structure (optional but recommended)
+!*.sln
+!*.csproj
+!*.fsproj
+!*.vbproj
+
+# Allow folders so Git can traverse them
+!*/
+
+
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Allow ONLY C# source files
+!*.cs
+
+# --- Optional: keep config files if you want ---
+#!appsettings.json
+#!appsettings.Development.json
